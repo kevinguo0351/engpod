@@ -1,0 +1,134 @@
+[
+  {
+    "lesson_id": "B0001",
+    "chunk": "working on it",
+    "zh": "还在弄／还没决定好（此处指还在看菜单）",
+    "sentence": "No, I'm still working on it."
+  },
+  {
+    "lesson_id": "B0001",
+    "chunk": "May I take your order",
+    "zh": "可以为您点单了吗（餐厅固定说法）",
+    "sentence": "May I take your order?"
+  },
+  {
+    "lesson_id": "B0001",
+    "chunk": "Does it come with",
+    "zh": "这个配／附带……吗",
+    "sentence": "Does it come with coke and fries?"
+  },
+  {
+    "lesson_id": "B0001",
+    "chunk": "I'll go with",
+    "zh": "我就要……（点单／做选择时的固定说法）",
+    "sentence": "I'll go with the spaghetti and meatballs, salad and the wine."
+  },
+  {
+    "lesson_id": "B0001",
+    "chunk": "go grab",
+    "zh": "去随便买点／弄点（吃的）",
+    "sentence": "I'll just go grab a burger across the street."
+  },
+  {
+    "lesson_id": "C0004",
+    "chunk": "the fact is",
+    "zh": "事实是／问题就在于（用来反驳对方）",
+    "sentence": "I understand that, but the fact is we're understaffed."
+  },
+  {
+    "lesson_id": "C0004",
+    "chunk": "take on new staff",
+    "zh": "招聘新员工",
+    "sentence": "The economy is bad, and it's too risky to take on new staff."
+  },
+  {
+    "lesson_id": "C0004",
+    "chunk": "take some of the weight off my shoulders",
+    "zh": "帮我分担一些负担",
+    "sentence": "She would take some of the weight off my shoulders."
+  },
+  {
+    "lesson_id": "C0004",
+    "chunk": "give me a hand with",
+    "zh": "帮我一把／协助我做……",
+    "sentence": "She could give me a hand with some of these projects and we could keep our costs down."
+  },
+  {
+    "lesson_id": "C0004",
+    "chunk": "keep our costs down",
+    "zh": "把成本压下来",
+    "sentence": "We could keep our costs down."
+  },
+  {
+    "lesson_id": "C0004",
+    "chunk": "let me see what I can do",
+    "zh": "我看看能想什么办法（不明确承诺的委婉说法）",
+    "sentence": "That sounds reasonable... let me see what I can do."
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "There is one catch",
+    "zh": "但有个问题／有个附带条件",
+    "sentence": "There is one catch, though."
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "give one hundred and ten percent",
+    "zh": "全力以赴，拼到极限",
+    "sentence": "I'm gonna need everyone to give one hundred and ten percent today."
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "tackle this project",
+    "zh": "搞定这个项目／着手处理",
+    "sentence": "I know that together we can tackle this project."
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "That being said",
+    "zh": "话虽如此／说完这些（转折过渡语）",
+    "sentence": "That being said, let's get to work!"
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "we've been over the plans",
+    "zh": "我们已经把图纸过了一遍",
+    "sentence": "Now, remember, we've been over the plans, but we really need to make sure that everything is up to code."
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "up to code",
+    "zh": "符合建筑规范",
+    "sentence": "We really need to make sure that everything is up to code."
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "rule of thumb",
+    "zh": "经验法则／大致准则",
+    "sentence": "And remember the carpenter's rule of thumb: measure twice and cut once."
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "Do me a favor",
+    "zh": "帮我个忙",
+    "sentence": "Do me a favor and help me cut this two-by-four, will ya?"
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "grab hold of",
+    "zh": "抓住／握住",
+    "sentence": "Pass me the circular saw, and grab hold of the end of the board."
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "take pride in your work",
+    "zh": "对自己的活儿有点追求／以自己的工作为荣",
+    "sentence": "Geez...you gotta take pride in your work!"
+  },
+  {
+    "lesson_id": "C0124",
+    "chunk": "I'll take care of it",
+    "zh": "我来搞定／我来处理",
+    "sentence": "Pass me the sander and I'll take care of it."
+  }
+]

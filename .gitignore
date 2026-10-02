@@ -1,0 +1,10 @@
+# Source material — copyrighted EnglishPod content, kept local only.
+Dialougue.pdf
+
+# Build artifacts, regenerate with build_anki.py
+EnglishPod_Chunks.apkg
+EnglishPod_Chunks.tsv
+collection.anki2
+
+.DS_Store
+__pycache__/
