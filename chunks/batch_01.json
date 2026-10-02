@@ -1,0 +1,998 @@
+[
+  {
+    "lesson_id": "B0002",
+    "chunk": "coming down with the flu",
+    "zh": "得了流感/患上流感",
+    "sentence": "I think I'm coming down with the flu."
+  },
+  {
+    "lesson_id": "B0002",
+    "chunk": "I'm sorry to hear that",
+    "zh": "听到这个消息我很遗憾（对坏消息的礼貌回应）",
+    "sentence": "I'm sorry to hear that. What's wrong?"
+  },
+  {
+    "lesson_id": "B0002",
+    "chunk": "calling in sick",
+    "zh": "打电话请病假",
+    "sentence": "I see... so you're calling in sick?"
+  },
+  {
+    "lesson_id": "B0002",
+    "chunk": "take the day off",
+    "zh": "请一天假",
+    "sentence": "Yes, I was hoping to take the day off to recover."
+  },
+  {
+    "lesson_id": "B0002",
+    "chunk": "get some rest",
+    "zh": "好好休息",
+    "sentence": "OK, then. Try and get some rest."
+  },
+  {
+    "lesson_id": "B0002",
+    "chunk": "feeling slightly feverish",
+    "zh": "感觉有点发烧",
+    "sentence": "I have a headache, a sore throat a runny nose and I'm feeling slightly feverish."
+  },
+  {
+    "lesson_id": "C0003",
+    "chunk": "check in",
+    "zh": "办理入住登记",
+    "sentence": "I'd like to check in please."
+  },
+  {
+    "lesson_id": "C0003",
+    "chunk": "we've been expecting you",
+    "zh": "我们一直在等您（客气的欢迎语）",
+    "sentence": "Oh, Mr. Roberts we've been expecting you"
+  },
+  {
+    "lesson_id": "C0003",
+    "chunk": "there must be some mistake",
+    "zh": "这里一定是弄错了",
+    "sentence": "But there must be some mistake; my reservation was for a standard room."
+  },
+  {
+    "lesson_id": "C0003",
+    "chunk": "Let me double check",
+    "zh": "我再确认一下",
+    "sentence": "Are you sure? Let me double check."
+  },
+  {
+    "lesson_id": "C0003",
+    "chunk": "there seems to be a mixup",
+    "zh": "好像出了点差错/搞混了",
+    "sentence": "there seems to be a mixup, unfortunately we're overbooked at the moment"
+  },
+  {
+    "lesson_id": "C0003",
+    "chunk": "Not to worry",
+    "zh": "别担心",
+    "sentence": "Not to worry. We're pleased to offer you a complimentary upgrade."
+  },
+  {
+    "lesson_id": "C0003",
+    "chunk": "complimentary upgrade",
+    "zh": "免费升级",
+    "sentence": "We're pleased to offer you a complimentary upgrade."
+  },
+  {
+    "lesson_id": "C0005",
+    "chunk": "took us two hours to get here",
+    "zh": "花了我们两个小时才到这里",
+    "sentence": "I can't believe it took us two hours to get here."
+  },
+  {
+    "lesson_id": "C0005",
+    "chunk": "going on vacation",
+    "zh": "去度假",
+    "sentence": "we're here and we're going on vacation."
+  },
+  {
+    "lesson_id": "C0005",
+    "chunk": "It must be a mile long",
+    "zh": "这队一定有好长（夸张说法）",
+    "sentence": "Look at that line! It must be a mile long!"
+  },
+  {
+    "lesson_id": "C0005",
+    "chunk": "There's no way I'm waiting",
+    "zh": "我绝不可能再等（强烈拒绝）",
+    "sentence": "There's no way I'm waiting for another two hours."
+  },
+  {
+    "lesson_id": "C0005",
+    "chunk": "cut in line",
+    "zh": "插队",
+    "sentence": "No seriously, I was here first, and you can't cut in line like this."
+  },
+  {
+    "lesson_id": "C0005",
+    "chunk": "Says who?",
+    "zh": "谁说的？（挑衅式反问）",
+    "sentence": "Says who?"
+  },
+  {
+    "lesson_id": "C0005",
+    "chunk": "So sue me!",
+    "zh": "那又能怎样/有本事你告我啊（满不在乎的回应）",
+    "sentence": "So sue me!"
+  },
+  {
+    "lesson_id": "C0006",
+    "chunk": "fill up the tank",
+    "zh": "把油箱加满",
+    "sentence": "Got it! Did you fill up the tank?"
+  },
+  {
+    "lesson_id": "C0006",
+    "chunk": "it's all set",
+    "zh": "都准备好了",
+    "sentence": "Yup, it's all set."
+  },
+  {
+    "lesson_id": "C0006",
+    "chunk": "we've got all our bases covered",
+    "zh": "我们什么都考虑到了/面面俱到",
+    "sentence": "I'm sure... we've got all our bases covered."
+  },
+  {
+    "lesson_id": "C0006",
+    "chunk": "road trips",
+    "zh": "公路旅行",
+    "sentence": "Well… let's get going then! I love road trips!"
+  },
+  {
+    "lesson_id": "C0006",
+    "chunk": "make a pit stop",
+    "zh": "中途停一下（比如上厕所）",
+    "sentence": "Um... do you think we can make a pit stop?"
+  },
+  {
+    "lesson_id": "C0006",
+    "chunk": "on the road",
+    "zh": "在路上/行驶途中",
+    "sentence": "But we've only been on the road for ten minutes."
+  },
+  {
+    "lesson_id": "C0007",
+    "chunk": "froze again",
+    "zh": "又死机了",
+    "sentence": "This stupid computer froze again!"
+  },
+  {
+    "lesson_id": "C0007",
+    "chunk": "acting up again",
+    "zh": "又出毛病了",
+    "sentence": "It's acting up again."
+  },
+  {
+    "lesson_id": "C0007",
+    "chunk": "I'll be right up",
+    "zh": "我马上就到",
+    "sentence": "Just give me a second; I'll be right up."
+  },
+  {
+    "lesson_id": "C0007",
+    "chunk": "it turns out that",
+    "zh": "结果是/原来是",
+    "sentence": "I ran a virus scan on your computer, and it turns out that you have a lot of infected files!"
+  },
+  {
+    "lesson_id": "C0007",
+    "chunk": "picked up a virus",
+    "zh": "感染了病毒",
+    "sentence": "I have no idea how I could have picked up a virus."
+  },
+  {
+    "lesson_id": "C0007",
+    "chunk": "up to date",
+    "zh": "是最新的/已更新",
+    "sentence": "yours wasn't up to date, that's probably what was causing your problems."
+  },
+  {
+    "lesson_id": "C0008",
+    "chunk": "right around the corner",
+    "zh": "就在附近/拐角处",
+    "sentence": "Actually, my office is right around the corner."
+  },
+  {
+    "lesson_id": "C0008",
+    "chunk": "in a bit of a hurry",
+    "zh": "有点赶时间",
+    "sentence": "I'm in a bit of a hurry, but here's my card."
+  },
+  {
+    "lesson_id": "C0008",
+    "chunk": "meet up again",
+    "zh": "再见面/再聚",
+    "sentence": "We should definitely meet up again and continue our discussion."
+  },
+  {
+    "lesson_id": "C0008",
+    "chunk": "your name has just slipped my mind",
+    "zh": "我一下子想不起你的名字了",
+    "sentence": "your name has just slipped my mind. Can you remind me?"
+  },
+  {
+    "lesson_id": "C0008",
+    "chunk": "Don't worry about it",
+    "zh": "别放在心上",
+    "sentence": "Don't worry about it; it happens to me all the time."
+  },
+  {
+    "lesson_id": "C0008",
+    "chunk": "happens to me all the time",
+    "zh": "我也经常这样",
+    "sentence": "Don't worry about it; it happens to me all the time."
+  },
+  {
+    "lesson_id": "C0008",
+    "chunk": "I'm terrible with names",
+    "zh": "我记人名很差",
+    "sentence": "I'm terrible with names too."
+  },
+  {
+    "lesson_id": "C0009",
+    "chunk": "so inconsiderate",
+    "zh": "真没礼貌/不顾及他人",
+    "sentence": "It's so inconsiderate!"
+  },
+  {
+    "lesson_id": "C0009",
+    "chunk": "not such a big deal",
+    "zh": "没什么大不了的",
+    "sentence": "Dont worry about it; it's not such a big deal."
+  },
+  {
+    "lesson_id": "C0009",
+    "chunk": "keep it down",
+    "zh": "小点声",
+    "sentence": "Excuse me, can you keep it down?"
+  },
+  {
+    "lesson_id": "C0009",
+    "chunk": "sorry 'bout that",
+    "zh": "抱歉啦（口语化道歉）",
+    "sentence": "Sure, sorry 'bout that!"
+  },
+  {
+    "lesson_id": "C0009",
+    "chunk": "switch it off",
+    "zh": "把它关掉",
+    "sentence": "Did you forget to switch it off?"
+  },
+  {
+    "lesson_id": "C0009",
+    "chunk": "Do you mind keeping it down?",
+    "zh": "你介意小声点吗（礼貌请求）",
+    "sentence": "Do you mind keeping it down? I'm trying to watch a movie here!"
+  },
+  {
+    "lesson_id": "C0010",
+    "chunk": "drive sales",
+    "zh": "推动销售额增长",
+    "sentence": "How do you intend to drive sales... Roger?"
+  },
+  {
+    "lesson_id": "C0010",
+    "chunk": "concrete solutions",
+    "zh": "具体的解决方案",
+    "sentence": "I want concrete solutions."
+  },
+  {
+    "lesson_id": "C0010",
+    "chunk": "It'll never fly with Swan",
+    "zh": "这在Swan那里绝对行不通（不会被接受）",
+    "sentence": "Lower our prices? Not very creative. It'll never fly with Swan."
+  },
+  {
+    "lesson_id": "C0010",
+    "chunk": "two-for-one offer",
+    "zh": "买一送一的促销",
+    "sentence": "Maybe a two-for-one offer, or something like that!"
+  },
+  {
+    "lesson_id": "C0010",
+    "chunk": "get more competitive",
+    "zh": "更有竞争力",
+    "sentence": "we were kind of considering a two-for- one offer to get more competitive."
+  },
+  {
+    "lesson_id": "C0010",
+    "chunk": "I kind of like the sound of that",
+    "zh": "我还挺喜欢这个想法的",
+    "sentence": "Hmm. I kind of like the sound of that."
+  },
+  {
+    "lesson_id": "C0010",
+    "chunk": "Just what I was thinking",
+    "zh": "正合我意/我也是这么想的",
+    "sentence": "Just what I was thinking!"
+  },
+  {
+    "lesson_id": "C0013",
+    "chunk": "go over the profit and loss statement",
+    "zh": "过一遍损益表",
+    "sentence": "Jill, let's go over the profit and loss statement."
+  },
+  {
+    "lesson_id": "C0013",
+    "chunk": "through the roof",
+    "zh": "（费用）高得离谱",
+    "sentence": "our expenses are through the roof."
+  },
+  {
+    "lesson_id": "C0013",
+    "chunk": "off the charts",
+    "zh": "高得惊人/超出正常范围",
+    "sentence": "These numbers are off the charts!"
+  },
+  {
+    "lesson_id": "C0013",
+    "chunk": "out of control",
+    "zh": "失控了",
+    "sentence": "the company expenditures on entertainment and travel are out of control."
+  },
+  {
+    "lesson_id": "C0013",
+    "chunk": "I'll look into it",
+    "zh": "我会去查一下",
+    "sentence": "OK, thank you. I'll look into it."
+  },
+  {
+    "lesson_id": "C0013",
+    "chunk": "goes on and on",
+    "zh": "没完没了/列都列不完",
+    "sentence": "The list goes on and on."
+  },
+  {
+    "lesson_id": "C0013",
+    "chunk": "I'll take care of it",
+    "zh": "我会处理的",
+    "sentence": "Thank you; that will be all. I'll take care of it."
+  },
+  {
+    "lesson_id": "B0014",
+    "chunk": "sorry to trouble you",
+    "zh": "很抱歉打扰你",
+    "sentence": "I'm really sorry to trouble you, but I need your help."
+  },
+  {
+    "lesson_id": "B0014",
+    "chunk": "hit me pretty hard",
+    "zh": "对我打击很大",
+    "sentence": "this recession has hit me pretty hard; I lost my job and I'm in a lot of debt."
+  },
+  {
+    "lesson_id": "B0014",
+    "chunk": "in a lot of debt",
+    "zh": "欠了很多债",
+    "sentence": "I lost my job and I'm in a lot of debt."
+  },
+  {
+    "lesson_id": "B0014",
+    "chunk": "on top of all that",
+    "zh": "除此之外/雪上加霜",
+    "sentence": "and on top of all that, I have to pay my son's college tuition."
+  },
+  {
+    "lesson_id": "B0014",
+    "chunk": "asking for a loan",
+    "zh": "想借笔钱",
+    "sentence": "So you're asking for a loan."
+  },
+  {
+    "lesson_id": "B0014",
+    "chunk": "help me out",
+    "zh": "帮我一把",
+    "sentence": "Well, I just thought maybe you could help me out."
+  },
+  {
+    "lesson_id": "B0014",
+    "chunk": "Get outa here!",
+    "zh": "滚出去！（口语化粗鲁的驱逐语）",
+    "sentence": "Go on! Get outa here!"
+  },
+  {
+    "lesson_id": "C0015",
+    "chunk": "watch where you're going",
+    "zh": "走路看着点",
+    "sentence": "Hey, watch where you're going!"
+  },
+  {
+    "lesson_id": "C0015",
+    "chunk": "knock you over",
+    "zh": "把你撞倒",
+    "sentence": "I really didn't mean to knock you over."
+  },
+  {
+    "lesson_id": "C0015",
+    "chunk": "lost control of my bike",
+    "zh": "我的自行车失控了",
+    "sentence": "My tire, just exploded, and I lost control of my bike."
+  },
+  {
+    "lesson_id": "C0015",
+    "chunk": "Please accept my apologies",
+    "zh": "请接受我的道歉（正式道歉）",
+    "sentence": "Really, it was an accident. Please accept my apologies."
+  },
+  {
+    "lesson_id": "C0015",
+    "chunk": "seem really familiar",
+    "zh": "看起来很眼熟",
+    "sentence": "you seem really familiar, I think I know you from somewhere."
+  },
+  {
+    "lesson_id": "C0015",
+    "chunk": "What a coincidence!",
+    "zh": "真是太巧了！",
+    "sentence": "We met at Aaron's place last weekend! What a coincidence!"
+  },
+  {
+    "lesson_id": "C0015",
+    "chunk": "I should probably get going",
+    "zh": "我该走了",
+    "sentence": "I should probably get going."
+  },
+  {
+    "lesson_id": "C0015",
+    "chunk": "You can't just leave me like this",
+    "zh": "你不能就这样丢下我不管",
+    "sentence": "You can't just leave me like this!"
+  },
+  {
+    "lesson_id": "B0016",
+    "chunk": "make a left",
+    "zh": "向左转",
+    "sentence": "OK, make a left here."
+  },
+  {
+    "lesson_id": "B0016",
+    "chunk": "speed up",
+    "zh": "加快速度",
+    "sentence": "Come on, speed up!"
+  },
+  {
+    "lesson_id": "B0016",
+    "chunk": "What's the rush?",
+    "zh": "急什么呀？",
+    "sentence": "Geez! What's the rush?"
+  },
+  {
+    "lesson_id": "B0016",
+    "chunk": "step on it",
+    "zh": "快踩油门/快点开",
+    "sentence": "the light is about to change. . . step on it!"
+  },
+  {
+    "lesson_id": "B0016",
+    "chunk": "run a red light",
+    "zh": "闯红灯",
+    "sentence": "I'm not going to run a red light!"
+  },
+  {
+    "lesson_id": "B0016",
+    "chunk": "will be packed",
+    "zh": "会很拥堵",
+    "sentence": "The freeway will be packed at this hour."
+  },
+  {
+    "lesson_id": "B0016",
+    "chunk": "take a side street",
+    "zh": "走小路",
+    "sentence": "let's take a side street."
+  },
+  {
+    "lesson_id": "B0016",
+    "chunk": "I know a short cut",
+    "zh": "我知道一条近路",
+    "sentence": "Here, I know a short cut"
+  },
+  {
+    "lesson_id": "B0017",
+    "chunk": "it's about time",
+    "zh": "早该这样了/总算是时候了",
+    "sentence": "Yeah well it's about time!"
+  },
+  {
+    "lesson_id": "B0017",
+    "chunk": "Don't be mean",
+    "zh": "别这么刻薄",
+    "sentence": "Don't be mean."
+  },
+  {
+    "lesson_id": "B0017",
+    "chunk": "walking down the aisle",
+    "zh": "走过教堂通道（婚礼仪式）",
+    "sentence": "Who are those kids walking down the aisle?"
+  },
+  {
+    "lesson_id": "B0017",
+    "chunk": "makes it quick",
+    "zh": "快点搞完",
+    "sentence": "I just hope the priest makes it quick."
+  },
+  {
+    "lesson_id": "B0017",
+    "chunk": "That's all you ever think about",
+    "zh": "你满脑子就想着这个",
+    "sentence": "That's all you ever think about, food!"
+  },
+  {
+    "lesson_id": "B0017",
+    "chunk": "reception is canceled",
+    "zh": "婚宴取消了",
+    "sentence": "Does this mean that the reception is canceled?"
+  },
+  {
+    "lesson_id": "D0018",
+    "chunk": "protest has broken out",
+    "zh": "爆发了抗议活动",
+    "sentence": "Washington, D. C. where a protest has broken out."
+  },
+  {
+    "lesson_id": "D0018",
+    "chunk": "reporting live from",
+    "zh": "现场直播报道",
+    "sentence": "reporter Sarah O'Connell reporting live from Washington, D. C."
+  },
+  {
+    "lesson_id": "D0018",
+    "chunk": "financial irresponsibility",
+    "zh": "财务不负责任",
+    "sentence": "The financial irresponsibility of big business has to stop!"
+  },
+  {
+    "lesson_id": "D0018",
+    "chunk": "an absolute outrage",
+    "zh": "完全是一种耻辱/令人愤慨",
+    "sentence": "It's an absolute outrage, Sarah"
+  },
+  {
+    "lesson_id": "D0018",
+    "chunk": "nearly bankrupt",
+    "zh": "几乎破产",
+    "sentence": "These are companies that have been mismanaged and are now nearly bankrupt."
+  },
+  {
+    "lesson_id": "D0018",
+    "chunk": "they have the nerve to",
+    "zh": "他们竟然还敢（表达厚脸皮的愤怒）",
+    "sentence": "they have the nerve to fly to Washington in private jets!"
+  },
+  {
+    "lesson_id": "D0018",
+    "chunk": "That is just not right",
+    "zh": "这根本不对/这不公平",
+    "sentence": "And they're asking for money! That is just not right!"
+  },
+  {
+    "lesson_id": "C0019",
+    "chunk": "Get a load of this guy",
+    "zh": "瞧瞧这家伙（表示惊讶/好笑）",
+    "sentence": "Whoa! Get a load of this guy!"
+  },
+  {
+    "lesson_id": "C0019",
+    "chunk": "we've got ourselves a situation here",
+    "zh": "我们这儿出状况了",
+    "sentence": "Come in central, I think we've got ourselves a situation here."
+  },
+  {
+    "lesson_id": "C0019",
+    "chunk": "Step out of the vehicle",
+    "zh": "下车",
+    "sentence": "Step out of the vehicle, please."
+  },
+  {
+    "lesson_id": "C0019",
+    "chunk": "'tis the season",
+    "zh": "正值佳节（古雅说法，应景节日用语）",
+    "sentence": "Just a few Christmas gifts, 'tis the season, after all!"
+  },
+  {
+    "lesson_id": "C0019",
+    "chunk": "Don't take that tone with me",
+    "zh": "别用这种语气跟我说话",
+    "sentence": "Don't take that tone with me."
+  },
+  {
+    "lesson_id": "C0019",
+    "chunk": "under arrest",
+    "zh": "被捕了",
+    "sentence": "You are under arrest, sir."
+  },
+  {
+    "lesson_id": "C0019",
+    "chunk": "right to remain silent",
+    "zh": "保持沉默的权利",
+    "sentence": "You have the right to remain silent."
+  },
+  {
+    "lesson_id": "B0020",
+    "chunk": "What seems to be the problem?",
+    "zh": "怎么了/哪里不舒服（医生常用问诊语）",
+    "sentence": "Hello, Arthur. What seems to be the problem?"
+  },
+  {
+    "lesson_id": "B0020",
+    "chunk": "20/20 vision",
+    "zh": "视力完全正常",
+    "sentence": "But I have always had 20/20 vision."
+  },
+  {
+    "lesson_id": "B0020",
+    "chunk": "struggle to see things",
+    "zh": "很难看清东西",
+    "sentence": "I really struggle to see things that are far away."
+  },
+  {
+    "lesson_id": "B0020",
+    "chunk": "can't quite make out",
+    "zh": "看不太清楚/辨认不出",
+    "sentence": "I can't quite make out the other symbol but I think it's the peace sign."
+  },
+  {
+    "lesson_id": "B0020",
+    "chunk": "as blind as a bat",
+    "zh": "眼神极差（像蝙蝠一样瞎，习语）",
+    "sentence": "Wow, Arthur! You're as blind as a bat!"
+  },
+  {
+    "lesson_id": "B0020",
+    "chunk": "blurry at times",
+    "zh": "有时候模糊",
+    "sentence": "my vision is really blurry at times."
+  },
+  {
+    "lesson_id": "B0020",
+    "chunk": "head on over to",
+    "zh": "去一下/前往",
+    "sentence": "head on over to the other room and pick out some frames"
+  },
+  {
+    "lesson_id": "B0020",
+    "chunk": "pick out some frames",
+    "zh": "挑选镜框",
+    "sentence": "pick out some frames while I fill out your prescription."
+  },
+  {
+    "lesson_id": "C0021",
+    "chunk": "always going on about him",
+    "zh": "总是不停地说起他",
+    "sentence": "She's always going on about him at the office."
+  },
+  {
+    "lesson_id": "C0021",
+    "chunk": "coming this way",
+    "zh": "朝这边走过来",
+    "sentence": "They're coming this way."
+  },
+  {
+    "lesson_id": "C0021",
+    "chunk": "talks about you all the time",
+    "zh": "总是提到你",
+    "sentence": "Veronica talks about you all the time."
+  },
+  {
+    "lesson_id": "C0021",
+    "chunk": "pretty busy at work",
+    "zh": "工作很忙",
+    "sentence": "I guess you must be pretty busy at work."
+  },
+  {
+    "lesson_id": "C0021",
+    "chunk": "implement policies and procedures",
+    "zh": "执行政策和流程",
+    "sentence": "I implement policies and procedures nationwide of various departments"
+  },
+  {
+    "lesson_id": "C0021",
+    "chunk": "sounds exciting",
+    "zh": "听起来很令人兴奋",
+    "sentence": "Wow, yeah... that sounds exciting."
+  },
+  {
+    "lesson_id": "C0021",
+    "chunk": "What do you do for a living?",
+    "zh": "你是做什么工作的",
+    "sentence": "And what about you, Arthur? What do you do for a living?"
+  },
+  {
+    "lesson_id": "C0022",
+    "chunk": "we've heard that one before",
+    "zh": "这种话我们听多了",
+    "sentence": "Yeah, Yeah, we've heard that one before, haven't we Joe?"
+  },
+  {
+    "lesson_id": "C0022",
+    "chunk": "claimed to be the tooth fairy",
+    "zh": "自称是牙仙子",
+    "sentence": "last week we booked this guy who claimed to be the tooth fairy!"
+  },
+  {
+    "lesson_id": "C0022",
+    "chunk": "Where is your Christmas spirit?",
+    "zh": "你的圣诞精神哪去了",
+    "sentence": "Where is your Christmas spirit?"
+  },
+  {
+    "lesson_id": "C0022",
+    "chunk": "no- parking zone",
+    "zh": "禁停区",
+    "sentence": "you were parked in a no- parking zone"
+  },
+  {
+    "lesson_id": "C0022",
+    "chunk": "has been impounded",
+    "zh": "被扣押了",
+    "sentence": "your sleigh has been impounded and those reindeer were taken to the city zoo."
+  },
+  {
+    "lesson_id": "C0022",
+    "chunk": "What's this world coming to?",
+    "zh": "这世道都成什么样了（感叹世风日下）",
+    "sentence": "What's this world coming to?"
+  },
+  {
+    "lesson_id": "C0022",
+    "chunk": "under heavy attack",
+    "zh": "遭到猛烈攻击",
+    "sentence": "Mayday, Mayday, we are under heavy attack!"
+  },
+  {
+    "lesson_id": "C0022",
+    "chunk": "We need backup",
+    "zh": "我们需要支援",
+    "sentence": "We need backup!"
+  },
+  {
+    "lesson_id": "B0023",
+    "chunk": "arrange an appointment",
+    "zh": "安排一个预约",
+    "sentence": "I'm calling to arrange an appointment with Ms. McNealy."
+  },
+  {
+    "lesson_id": "B0023",
+    "chunk": "any time available",
+    "zh": "有空的时间",
+    "sentence": "Does she have any time available then?"
+  },
+  {
+    "lesson_id": "B0023",
+    "chunk": "let me double check",
+    "zh": "我再确认一下",
+    "sentence": "Um. . . let me double check. . ."
+  },
+  {
+    "lesson_id": "B0023",
+    "chunk": "booked solid",
+    "zh": "时间都排满了",
+    "sentence": "she's booked solid on Thursday"
+  },
+  {
+    "lesson_id": "B0023",
+    "chunk": "how does next Monday work for you",
+    "zh": "下周一你方便吗",
+    "sentence": "how does next Monday work for you?"
+  },
+  {
+    "lesson_id": "B0023",
+    "chunk": "I've got something scheduled",
+    "zh": "我已经有安排了",
+    "sentence": "Actually, I've got something scheduled on Monday."
+  },
+  {
+    "lesson_id": "B0023",
+    "chunk": "Sorry 'bout that",
+    "zh": "不好意思啦",
+    "sentence": "Oh, actually, Tuesday's no good. Sorry 'bout that."
+  },
+  {
+    "lesson_id": "B0024",
+    "chunk": "checking out a restaurant",
+    "zh": "去看看一家餐厅（尝试一下）",
+    "sentence": "We were thinking of checking out a restaurant in the neigbourhood."
+  },
+  {
+    "lesson_id": "B0024",
+    "chunk": "giving it a try",
+    "zh": "去尝试一下",
+    "sentence": "I'd recommend giving it a try."
+  },
+  {
+    "lesson_id": "B0024",
+    "chunk": "not all that crazy about",
+    "zh": "不是特别喜欢",
+    "sentence": "I'm not all that crazy about Italian food"
+  },
+  {
+    "lesson_id": "B0024",
+    "chunk": "in the mood for something",
+    "zh": "想吃点什么/有...的心情",
+    "sentence": "I'm in the mood for something a bit lighter."
+  },
+  {
+    "lesson_id": "B0024",
+    "chunk": "a hole in the wall",
+    "zh": "不起眼的小店（但往往很好吃）",
+    "sentence": "It's just a hole in the wall, but they do the most amazing sandwiches."
+  },
+  {
+    "lesson_id": "B0024",
+    "chunk": "You gotta give them a try",
+    "zh": "你一定得尝尝",
+    "sentence": "You gotta give them a try."
+  },
+  {
+    "lesson_id": "B0024",
+    "chunk": "got food poisoning",
+    "zh": "食物中毒了",
+    "sentence": "I got food poisoning, remember?"
+  },
+  {
+    "lesson_id": "D0025",
+    "chunk": "next order of business",
+    "zh": "下一项议程",
+    "sentence": "let's move to our next order of business"
+  },
+  {
+    "lesson_id": "D0025",
+    "chunk": "come to my attention",
+    "zh": "我注意到/引起我的关注",
+    "sentence": "it's come to my attention that our company lacks any sort of bird flu contingency plan."
+  },
+  {
+    "lesson_id": "D0025",
+    "chunk": "contingency plan",
+    "zh": "应急预案",
+    "sentence": "our company lacks any sort of bird flu contingency plan."
+  },
+  {
+    "lesson_id": "D0025",
+    "chunk": "come up with a clear plan",
+    "zh": "想出一个明确的计划",
+    "sentence": "we need to come up with a clear plan"
+  },
+  {
+    "lesson_id": "D0025",
+    "chunk": "head up this project",
+    "zh": "牵头这个项目",
+    "sentence": "Ralph, I'd like you to head up this project."
+  },
+  {
+    "lesson_id": "D0025",
+    "chunk": "figure out",
+    "zh": "弄清楚",
+    "sentence": "I'll need you to analyze our numbers and figure out what kind of financial impact an outbreak might have."
+  },
+  {
+    "lesson_id": "D0025",
+    "chunk": "work from home",
+    "zh": "居家办公",
+    "sentence": "perhaps some IT solutions that will allow our people to work from home."
+  },
+  {
+    "lesson_id": "B0026",
+    "chunk": "New Year's resolution",
+    "zh": "新年愿望/新年计划",
+    "sentence": "did I tell you about my New Year's resolution?"
+  },
+  {
+    "lesson_id": "B0026",
+    "chunk": "go on a diet",
+    "zh": "开始节食",
+    "sentence": "I've decided to go on a diet."
+  },
+  {
+    "lesson_id": "B0026",
+    "chunk": "cut out all that junk",
+    "zh": "戒掉那些垃圾食品",
+    "sentence": "I'm going to cut out all that junk I eat"
+  },
+  {
+    "lesson_id": "B0026",
+    "chunk": "I've heard this one before",
+    "zh": "这话我听过了（不太相信）",
+    "sentence": "I've heard this one before."
+  },
+  {
+    "lesson_id": "B0026",
+    "chunk": "stick to it",
+    "zh": "坚持下去",
+    "sentence": "But this time I'm going to stick to it."
+  },
+  {
+    "lesson_id": "B0026",
+    "chunk": "wait and see",
+    "zh": "走着瞧/等着看",
+    "sentence": "Well, I guess we'll just have to wait and see."
+  },
+  {
+    "lesson_id": "B0026",
+    "chunk": "I'm stuffed",
+    "zh": "我吃饱了（吃撑了）",
+    "sentence": "I'm stuffed."
+  },
+  {
+    "lesson_id": "B0027",
+    "chunk": "do you have a second",
+    "zh": "你有空吗/能耽误你一下吗",
+    "sentence": "Mr. McKenna, do you have a second?"
+  },
+  {
+    "lesson_id": "B0027",
+    "chunk": "used up all my vacation days",
+    "zh": "用光了所有的假期",
+    "sentence": "I know I've used up all my vacation days this year"
+  },
+  {
+    "lesson_id": "B0027",
+    "chunk": "take some time off",
+    "zh": "请假/休息一段时间",
+    "sentence": "You wanna take some time off, is that right?"
+  },
+  {
+    "lesson_id": "B0027",
+    "chunk": "unpaid leave",
+    "zh": "无薪假",
+    "sentence": "I was just hoping that I might be able to take some unpaid leave this year."
+  },
+  {
+    "lesson_id": "B0027",
+    "chunk": "at least two months notice",
+    "zh": "至少提前两个月通知",
+    "sentence": "I'll need at least two months notice, so that I can plan for your absence."
+  },
+  {
+    "lesson_id": "B0027",
+    "chunk": "plan for your absence",
+    "zh": "为你的缺席做安排",
+    "sentence": "so that I can plan for your absence."
+  },
+  {
+    "lesson_id": "C0028",
+    "chunk": "so relieved",
+    "zh": "松了一大口气",
+    "sentence": "I'm so relieved that your ankle wasn't broken!"
+  },
+  {
+    "lesson_id": "C0028",
+    "chunk": "make it up to you",
+    "zh": "补偿你",
+    "sentence": "I wanna make it up to you."
+  },
+  {
+    "lesson_id": "C0028",
+    "chunk": "My treat",
+    "zh": "我请客",
+    "sentence": "Let me take you out to dinner tonight. My treat."
+  },
+  {
+    "lesson_id": "C0028",
+    "chunk": "Pick me up at eight",
+    "zh": "八点来接我",
+    "sentence": "Pick me up at eight?"
+  },
+  {
+    "lesson_id": "C0028",
+    "chunk": "had a great time",
+    "zh": "玩得很开心",
+    "sentence": "The food was amazing, and I had a great time."
+  },
+  {
+    "lesson_id": "C0028",
+    "chunk": "A twist of fate",
+    "zh": "命运的转折/造化弄人",
+    "sentence": "A twist of fate brought us together."
+  },
+  {
+    "lesson_id": "C0028",
+    "chunk": "crashed into your life",
+    "zh": "闯进了你的生活",
+    "sentence": "I crashed into your life and you into mine"
+  }
+]

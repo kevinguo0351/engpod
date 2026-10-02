@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EnglishPod 复习器</title>
+<style>
+:root {
+  --bg: #fbfbfa; --fg: #1d1d1f; --dim: #86868b; --line: #e3e3e0;
+  --accent: #1769b5; --card: #fff; --warm: #c2703d; --good: #2d8a56;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #16161a; --fg: #e8e8ea; --dim: #8a8a94; --line: #2c2c33;
+          --accent: #5aa9e6; --card: #1e1e24; --warm: #d98a5a; --good: #52b788; }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--fg);
+  font: 16px/1.6 -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+}
+header {
+  position: sticky; top: 0; z-index: 10; background: var(--bg);
+  border-bottom: 1px solid var(--line); padding: 12px 20px;
+  display: flex; gap: 14px; align-items: center; flex-wrap: wrap;
+}
+h1 { font-size: 17px; margin: 0; font-weight: 600; letter-spacing: -.01em; }
+.spacer { flex: 1; }
+main { max-width: 760px; margin: 0 auto; padding: 20px; }
+button, select, input {
+  font: inherit; color: inherit; background: var(--card);
+  border: 1px solid var(--line); border-radius: 7px; padding: 5px 11px; cursor: pointer;
+}
+button:hover { border-color: var(--accent); }
+button.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+.progress { font-size: 13px; color: var(--dim); white-space: nowrap; }
+.bar { height: 3px; background: var(--line); border-radius: 2px; overflow: hidden; width: 100%; }
+.bar > i { display: block; height: 100%; background: var(--good); transition: width .3s; }
+
+/* ---- lesson list ---- */
+.row {
+  display: flex; align-items: baseline; gap: 10px; padding: 9px 12px;
+  border-bottom: 1px solid var(--line); cursor: pointer;
+}
+.row:hover { background: var(--card); }
+.row .id { font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--dim); width: 48px; flex: none; }
+.row .t { flex: 1; }
+.row .cat { font-size: 12px; color: var(--dim); }
+.dot { width: 7px; height: 7px; border-radius: 50%; flex: none; background: var(--line); }
+.dot.seen { background: var(--warm); }
+.dot.known { background: var(--good); }
+
+/* ---- lesson view ---- */
+.meta { color: var(--dim); font-size: 13px; margin-bottom: 4px; }
+h2 { font-size: 24px; margin: 0 0 18px; font-weight: 600; letter-spacing: -.02em; }
+.turn { display: flex; gap: 12px; margin: 0 0 13px; }
+.who {
+  font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--dim);
+  flex: none; min-width: 58px; text-align: right; padding-top: 3px;
+}
+.line { flex: 1; }
+.hidden .line { filter: blur(5px); cursor: pointer; transition: filter .15s; }
+.hidden .line.show { filter: none; }
+mark { background: none; color: var(--accent); font-weight: 600; border-bottom: 1px dashed var(--accent); }
+
+.chunks { margin-top: 30px; border-top: 1px solid var(--line); padding-top: 18px; }
+.chunks h3 { font-size: 13px; color: var(--dim); font-weight: 500; margin: 0 0 14px; text-transform: uppercase; letter-spacing: .06em; }
+.ch { padding: 9px 0; border-bottom: 1px solid var(--line); }
+.ch .en { font-weight: 600; color: var(--accent); }
+.ch .zh { font-size: 14px; color: var(--dim); }
+.ch.quiz .en { filter: blur(5px); cursor: pointer; }
+.ch.quiz .en.show { filter: none; }
+
+.nav { display: flex; gap: 10px; margin-top: 30px; padding-top: 18px; border-top: 1px solid var(--line); }
+.empty { color: var(--dim); padding: 40px 0; text-align: center; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>EnglishPod</h1>
+  <button id="back" hidden>&larr; 列表</button>
+  <span class="spacer"></span>
+  <span class="progress" id="prog"></span>
+</header>
+<div class="bar"><i id="bar"></i></div>
+<main id="app"><p class="empty">加载中…</p></main>
+
+<script>
+const BILIBILI = "";            // 整个合集的 B 站地址，填上后每课显示跳转链接
+const DAILY_GOAL = 10;
+
+const S = {                      // 学习状态，存 localStorage
+  data: JSON.parse(localStorage.getItem("engpod") || "{}"),
+  get(id) { return this.data[id] || null; },
+  set(id, v) {
+    if (v) this.data[id] = v; else delete this.data[id];
+    localStorage.setItem("engpod", JSON.stringify(this.data));
+  },
+  countToday() {
+    const today = new Date().toDateString();
+    return Object.values(this.data).filter(v => v.at === today).length;
+  }
+};
+
+let lessons = [], chunksBy = {}, filter = "all";
+
+const esc = s => s.replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+
+// Highlight every annotated chunk inside a dialogue line.
+function mark(line, chunks) {
+  let out = esc(line);
+  for (const c of chunks) {
+    const pat = esc(c.chunk).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    out = out.replace(new RegExp(pat, "i"), m => `<mark>${m}</mark>`);
+  }
+  return out;
+}
+
+function renderProgress() {
+  const known = lessons.filter(l => S.get(l.id)?.state === "known").length;
+  document.getElementById("prog").textContent =
+    `今天 ${S.countToday()}/${DAILY_GOAL} · 已掌握 ${known}/${lessons.length}`;
+  document.getElementById("bar").style.width = (known / lessons.length * 100) + "%";
+}
+
+function renderList() {
+  document.getElementById("back").hidden = true;
+  const pick = l => filter === "all" ||
+    (filter === "new" && !S.get(l.id)) ||
+    (filter === "seen" && S.get(l.id)?.state === "seen") ||
+    (filter === "known" && S.get(l.id)?.state === "known");
+  const shown = lessons.filter(pick);
+
+  const bar = ["all", "new", "seen", "known"].map(f =>
+    `<button data-f="${f}" class="${f === filter ? "on" : ""}">${
+      { all: "全部", new: "未学", seen: "学过", known: "已掌握" }[f]}</button>`).join(" ");
+
+  document.getElementById("app").innerHTML =
+    `<p style="margin:0 0 16px">${bar}</p>` +
+    (shown.length ? shown.map(l => {
+      const st = S.get(l.id)?.state;
+      const n = (chunksBy[l.id] || []).length;
+      return `<div class="row" data-id="${l.id}">
+        <span class="dot ${st || ""}"></span>
+        <span class="id">${l.id}</span>
+        <span class="t">${esc(l.title)}${n ? ` <span class="cat">· ${n} 语块</span>` : ""}</span>
+        <span class="cat">${esc(l.category || "")}</span>
+      </div>`;
+    }).join("") : `<p class="empty">这个筛选下没有课程。</p>`);
+
+  document.querySelectorAll("[data-f]").forEach(b =>
+    b.onclick = () => { filter = b.dataset.f; renderList(); });
+  document.querySelectorAll(".row").forEach(r =>
+    r.onclick = () => openLesson(r.dataset.id));
+  renderProgress();
+}
+
+function openLesson(id) {
+  const i = lessons.findIndex(l => l.id === id), l = lessons[i];
+  const chunks = chunksBy[id] || [];
+  let quiz = false;
+  document.getElementById("back").hidden = false;
+  scrollTo(0, 0);
+
+  const draw = () => {
+    const turns = l.turns.length
+      ? l.turns.map(t => `<div class="turn"><span class="who">${esc(t.speaker)}</span>
+          <span class="line">${mark(t.line, chunks)}</span></div>`).join("")
+      : `<div class="turn"><span class="line">${mark(l.narration, chunks)}</span></div>`;
+
+    const list = chunks.length ? `<div class="chunks">
+        <h3>语块 ${quiz ? "— 先自己说出英文，再点开" : ""}</h3>
+        ${chunks.map(c => `<div class="ch ${quiz ? "quiz" : ""}">
+          <div class="en">${esc(c.chunk)}</div>
+          <div class="zh">${esc(c.zh)}</div></div>`).join("")}
+      </div>` : `<div class="chunks"><h3>语块</h3>
+        <p class="cat">这一课还没标注语块。</p></div>`;
+
+    const st = S.get(l.id)?.state;
+    document.getElementById("app").innerHTML = `
+      <div class="meta">${l.id}${l.category ? " · " + esc(l.category) : ""}${l.level ? " · " + l.level : ""}
+        ${BILIBILI ? ` · <a href="${BILIBILI}" target="_blank" rel="noopener">B 站音频</a>` : ""}</div>
+      <h2>${esc(l.title)}</h2>
+      <p><button id="q" class="${quiz ? "on" : ""}">${quiz ? "显示全部" : "遮住英文，自测"}</button></p>
+      <div id="dlg" class="${quiz ? "hidden" : ""}">${turns}</div>
+      ${list}
+      <div class="nav">
+        <button id="seen" class="${st === "seen" ? "on" : ""}">学过</button>
+        <button id="known" class="${st === "known" ? "on" : ""}">已掌握</button>
+        <span class="spacer" style="flex:1"></span>
+        ${i > 0 ? `<button id="prev">&larr; 上一课</button>` : ""}
+        ${i < lessons.length - 1 ? `<button id="next">下一课 &rarr;</button>` : ""}
+      </div>`;
+
+    document.getElementById("q").onclick = () => { quiz = !quiz; draw(); };
+    // Blurred text reveals on tap, one line at a time.
+    document.querySelectorAll(".hidden .line, .ch.quiz .en").forEach(el =>
+      el.onclick = () => el.classList.toggle("show"));
+
+    const stamp = s => {
+      S.set(l.id, st === s ? null : { state: s, at: new Date().toDateString() });
+      if (st !== s && s === "known" && i < lessons.length - 1) openLesson(lessons[i + 1].id);
+      else draw(), renderProgress();
+    };
+    document.getElementById("seen").onclick = () => stamp("seen");
+    document.getElementById("known").onclick = () => stamp("known");
+    const prev = document.getElementById("prev"), next = document.getElementById("next");
+    if (prev) prev.onclick = () => openLesson(lessons[i - 1].id);
+    if (next) next.onclick = () => openLesson(lessons[i + 1].id);
+    renderProgress();
+  };
+  draw();
+}
+
+document.getElementById("back").onclick = renderList;
+
+Promise.all([
+  fetch("lessons.json").then(r => r.json()),
+  fetch("chunks.all.json").then(r => r.ok ? r.json() : []).catch(() => [])
+]).then(([ls, cs]) => {
+  lessons = ls;
+  for (const c of cs) (chunksBy[c.lesson_id] ||= []).push(c);
+  renderList();
+}).catch(e => {
+  document.getElementById("app").innerHTML =
+    `<p class="empty">读不到数据：${e}<br><br>本页需要通过 http 打开（GitHub Pages 或 <code>python3 -m http.server</code>），直接双击本地文件不行。</p>`;
+});
+</script>
+</body>
+</html>

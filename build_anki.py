@@ -18,7 +18,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 LESSONS = HERE / "lessons.json"
-CHUNKS = HERE / "chunks.json"
+CHUNKS = HERE / "chunks.all.json"
 APKG = HERE / "EnglishPod_Chunks.apkg"
 TSV = HERE / "EnglishPod_Chunks.tsv"
 
