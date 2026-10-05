@@ -4,6 +4,12 @@ Study tooling for the EnglishPod dialogue collection — 359 dialogues parsed ou
 the source PDF into structured data, then turned into an Anki deck and a web
 reviewer.
 
+**复习器： https://kevinguo0351.github.io/engpod/**
+
+Lesson list with mastery state (kept in `localStorage`), a read mode with the
+annotated chunks highlighted inline, and a self-test mode that blurs the English
+so recall runs 中 → 英.
+
 ## Pipeline
 
 ```
